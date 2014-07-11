@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointServer", "EndpointServer\EndpointServer.csproj", "{7D0797A5-D2AB-4703-8274-8C6938470439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint.Messages", "Endpoint.Messages\Endpoint.Messages.csproj", "{31A27505-EF7D-4934-82AC-B0530FFB4C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint.View", "Endpoint.View\Endpoint.View.csproj", "{4C9A07F2-8AF8-47E8-A3FB-FA514B327257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D0797A5-D2AB-4703-8274-8C6938470439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0797A5-D2AB-4703-8274-8C6938470439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0797A5-D2AB-4703-8274-8C6938470439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0797A5-D2AB-4703-8274-8C6938470439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A27505-EF7D-4934-82AC-B0530FFB4C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A27505-EF7D-4934-82AC-B0530FFB4C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A27505-EF7D-4934-82AC-B0530FFB4C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A27505-EF7D-4934-82AC-B0530FFB4C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9A07F2-8AF8-47E8-A3FB-FA514B327257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9A07F2-8AF8-47E8-A3FB-FA514B327257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9A07F2-8AF8-47E8-A3FB-FA514B327257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9A07F2-8AF8-47E8-A3FB-FA514B327257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
