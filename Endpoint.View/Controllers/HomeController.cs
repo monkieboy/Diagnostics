@@ -11,16 +11,16 @@ namespace Endpoint.View.Controllers
 
         public ActionResult Index()
         {
-            var req = WebRequest.Create("http://localhost:41100/random");
+//            var req = WebRequest.Create("http://localhost:41100/random");
 
             var status = string.Empty;
-            using (var response = req.GetResponse())
-            {
-                using (var rdr = new StreamReader(response.GetResponseStream()))
-                {
-                    status = rdr.ReadToEnd();
-                }
-            }
+//            using (var response = req.GetResponse())
+//            {
+//                using (var rdr = new StreamReader(response.GetResponseStream()))
+//                {
+//                    status = rdr.ReadToEnd();
+//                }
+//            }
 
 
             var model = new ViewingModel

@@ -11,8 +11,7 @@ namespace EndpointServer
             using (var host = new NancyHost(new Uri("http://localhost:41100")))
             {
                 host.Start();
-                new HomeModule();
-                Console.ReadLine();
+                Console.ReadKey();
             }
         }
     }

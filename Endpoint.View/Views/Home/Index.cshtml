@@ -7,12 +7,38 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>title</title>
-    </head>
+<head>
+    <title>title</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        var checker = {};
+
+        checker.configureVerifications = function(t) {
+            var valueToVerify = t;
+            var verify = function () {
+
+                $('#check-' + valueToVerify).load('http://localhost:41100/' + valueToVerify, null, function (text, status) {
+                    var response = eval('(' + text + ')');
+                    $('#check-' + valueToVerify).css('background-color', response.Color);
+                    $('#check-' + valueToVerify).text(response.State);
+                }).fadeIn("slow");
+            };
+            setInterval(verify, 2000);
+        };
+    </script>
+    <script type="text/javascript">
+        checker.configureVerifications('random');
+        checker.configureVerifications('blab');
+    </script>
+
+</head>
     <body>
-        <div style="background-color: @Model.Status">
-            @Model.Status  
+        <div id="fields"></div>
+        <div id="check-random">
+            State not verified
+        </div>
+        <div id="check-blab">
+            State not verified
         </div>
     </body>
 </html>
