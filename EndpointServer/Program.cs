@@ -1,5 +1,4 @@
 ﻿using System;
-using Endpoint.Messages;
 using Nancy.Hosting.Self;
 
 namespace EndpointServer

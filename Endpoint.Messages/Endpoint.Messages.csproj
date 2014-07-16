@@ -50,7 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomeModule.cs" />
+    <Compile Include="App\Infrastructure\Bootstrapper.cs" />
+    <Compile Include="App\HealthCheckStatus.cs" />
+    <Compile Include="App\HealthCheckModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
